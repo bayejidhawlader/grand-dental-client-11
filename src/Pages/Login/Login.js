@@ -1,10 +1,13 @@
 import React from "react";
 
 const Login = () => {
+  const handleLogin = (event) => {
+    event.preventDefault();
+  };
   return (
     <div className="hero">
       <div className="hero-content flex-col">
-        <form className="card-body">
+        <form onSubmit={handleLogin} className="card-body">
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
