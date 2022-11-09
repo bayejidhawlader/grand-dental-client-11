@@ -18,7 +18,6 @@ const Banner = () => {
               not suffer from the same problem again and they can be healthy
               afterwards
             </p>
-            <button className="btn btn-primary">Learn More</button>
           </div>
         </div>
       </div>
