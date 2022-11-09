@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
+// get our fontawesome imports
 
 const Login = () => {
   const { loginExitingUser } = useContext(AuthContext);
@@ -56,6 +57,11 @@ const Login = () => {
           </Link>
           <div className="form-control mt-6">
             <input className="btn btn-primary" type="submit" value="Login" />
+          </div>
+          <div>
+            <div>
+              <button>Login With Google</button>
+            </div>
           </div>
         </form>
       </div>
