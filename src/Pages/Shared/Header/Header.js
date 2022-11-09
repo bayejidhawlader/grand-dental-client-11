@@ -1,7 +1,15 @@
-import React from "react";
-import logo from "../../../Assets/logo.jpg";
+import React, { useContext } from "react";
+import { FaUser } from "react-icons/fa";
+import { AuthContext } from "../../../context/AuthProvider/AuthProvider";
 
 const Header = () => {
+  const { user, logOut } = useContext(AuthContext);
+
+  const handleSingOut = () => {
+    logOut()
+      .then(() => {})
+      .catch((error) => console.log(error));
+  };
   return (
     <div>
       <div className="navbar">
@@ -25,7 +33,7 @@ const Header = () => {
             </label>
             <ul
               tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow  rounded-box w-52"
             >
               <li>
                 <a href="/">Home</a>
@@ -71,9 +79,21 @@ const Header = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a href="/" className="btn">
-            Get started
-          </a>
+          <span className="mr-2">{user?.displayName}</span>
+
+          <div>
+            {user?.photoURL ? (
+              <img className="rounded w-8 mr-2" src={user?.photoURL} alt="" />
+            ) : (
+              <p></p>
+            )}
+          </div>
+
+          <div>
+            <button className="btn btn-primary" onClick={handleSingOut}>
+              Log Out
+            </button>
+          </div>
         </div>
       </div>
     </div>

@@ -1,16 +1,17 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
-// get our fontawesome imports
+import { GoogleAuthProvider } from "firebase/auth";
 
 const Login = () => {
-  const { loginExitingUser } = useContext(AuthContext);
+  const { loginExitingUser, loginWithGoogle } = useContext(AuthContext);
   const handleLogin = (event) => {
     event.preventDefault();
     const form = event.target;
     const email = form.email.value;
     const password = form.password.value;
 
+    // Login with email and pass
     loginExitingUser(email, password)
       .then((result) => {
         const user = result.user;
@@ -18,9 +19,22 @@ const Login = () => {
       })
       .catch((err) => console.error(err));
   };
+
+  const googleProvider = new GoogleAuthProvider();
+
+  // Sing In With Google
+  const handleGoogleSingIn = () => {
+    loginWithGoogle(googleProvider)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((error) => console.log(error));
+  };
+
   return (
     <div className="hero">
-      <div className="hero-content flex-col">
+      <div className="hero-content">
         <form onSubmit={handleLogin} className="card-body">
           <div className="form-control">
             <label className="label">
@@ -29,7 +43,7 @@ const Login = () => {
             <input
               name="email"
               type="text"
-              placeholder="email"
+              placeholder="Your Email"
               className="input input-bordered"
             />
           </div>
@@ -40,14 +54,9 @@ const Login = () => {
             <input
               name="password"
               type="password"
-              placeholder="password"
+              placeholder="Your Password"
               className="input input-bordered"
             />
-            <label className="label">
-              <a href="/" className="label-text-alt link link-hover">
-                Forgot password?
-              </a>
-            </label>
           </div>
           <Link to="/singup" className="">
             <p className=" text-center pb-4">
@@ -55,13 +64,16 @@ const Login = () => {
               <button className=" w-100">- Register</button>
             </p>
           </Link>
+
+          <button
+            onClick={handleGoogleSingIn}
+            className="border-2 border-primary p-2"
+          >
+            Login with Google
+          </button>
+
           <div className="form-control mt-6">
             <input className="btn btn-primary" type="submit" value="Login" />
-          </div>
-          <div>
-            <div>
-              <button>Login With Google</button>
-            </div>
           </div>
         </form>
       </div>
