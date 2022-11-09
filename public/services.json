@@ -1,0 +1,58 @@
+[
+    {
+        "id": "01",
+        "service_id": "01",
+        "name": "Public Defenders",
+        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+        "price": "20.00",
+        "s_description":"apiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        
+    },
+    {
+        "id": "02",
+        "service_id": "02",
+        "name": "Battery Charge",
+        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+        "price": "20.00",
+        "s_description":"apiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+    },
+    {
+        "id": "03",
+        "service_id": "03",
+        "name": "Full car Repair",
+        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
+        "price": "200.00",
+        "s_description":"apiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eo",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+    },
+    {
+        "id": "04",
+        "service_id": "04",
+        "name": "Employment and Separation Agreements",
+        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+        "price": "150.00",
+        "s_description":"Our management-side background makes us uniquely positioned to represent employees and executives",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+    },
+    {
+        "id": "05",
+        "service_id": "05",
+        "name": "Equal Pay",
+        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+        "price": "30.00",
+        "s_description":"Our management-side background makes us uniquely positioned to represent employees and executives.",
+        "description": "Sexual harassment is illegal under Title VII, the New York State Human Rights Law, the New York City Human Rights Law, and other state and local laws.  Generally, unlawful sexual harassment includes unwelcome or offensive conduct based on sex, sexual orientation, gender identity or expression, pregnancy or transgender status.  Sexual harassment can include unwanted sexual advances, unwelcome touching, demeaning comments, sex stereotyping or hostile actions directed at someone because of their sex. We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies. HOW WE HELP? We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies."
+        
+    },
+    {
+        "id": "06",
+        "service_id": "06",
+        "name": "Sexual Harassment",
+        "img": "https://i.ibb.co/4Wt1382/silhouette-of-woman-harassment-illustration-hands-of-man-touching-women-violence-against-women-workp.jpg",
+        "price": "20.00",
+        "s_description":"Sexual harassment continues to be one of the most pervasive problems in our workplaces.",
+        "description": "Sexual harassment is illegal under Title VII, the New York State Human Rights Law, the New York City Human Rights Law, and other state and local laws.  Generally, unlawful sexual harassment includes unwelcome or offensive conduct based on sex, sexual orientation, gender identity or expression, pregnancy or transgender status.  Sexual harassment can include unwanted sexual advances, unwelcome touching, demeaning comments, sex stereotyping or hostile actions directed at someone because of their sex. We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies. HOW WE HELP? We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies."
+    }
+]

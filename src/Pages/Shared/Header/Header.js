@@ -34,6 +34,11 @@ const Header = () => {
               <li>
                 <a href="/blog">Blog</a>
               </li>
+
+              <li>
+                <a href="/login">Login</a>
+              </li>
+
               <li>
                 <a href="/services">Services</a>
               </li>
@@ -55,6 +60,11 @@ const Header = () => {
             <li>
               <a href="/blog">Blog</a>
             </li>
+
+            <li>
+              <a href="/login">Login</a>
+            </li>
+
             <li>
               <a href="/services">Services</a>
             </li>

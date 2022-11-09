@@ -14,8 +14,8 @@ const Banner = () => {
           <div className="max-w-md">
             {/* <h1 className="mb-5 text-5xl font-bold">Hello there</h1> */}
             <p className="mb-5 text-xl text-white">
-              We advocate for employee rights and help companies comply with
-              workplace laws.
+              Advocate for employee rights and help people comply with workplace
+              laws.
             </p>
             <button className="btn btn-primary">Learn More</button>
           </div>
