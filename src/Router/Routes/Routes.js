@@ -3,6 +3,7 @@ import Main from "../../Layout/Main";
 import Blog from "../../Pages/Blog/Blog";
 import Home from "../../Pages/Home/Home/Home";
 import Login from "../../Pages/Login/Login";
+import SingleService from "../../Pages/SingleService/SingleService";
 import SingUp from "../../Pages/SingUp/SingUp";
 
 const router = createBrowserRouter([
@@ -25,6 +26,12 @@ const router = createBrowserRouter([
       {
         path: "/singup",
         element: <SingUp></SingUp>,
+      },
+      {
+        path: "/single_service/:id",
+        element: <SingleService></SingleService>,
+        loader: ({ params }) =>
+          fetch(`http://localhost:5000/services/${params.id}`),
       },
     ],
   },

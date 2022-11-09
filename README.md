@@ -1,3 +1,5 @@
-# Getting Started with Create React App
+# Dental Website Project 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Live Website Link](https://assinment-lawyer-website.web.app/).
+
+## When clicking the view details button, the user will be taken to the service details
