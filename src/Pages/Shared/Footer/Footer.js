@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import footer from "../../../Assets/footer.png";
+import footer from "../../../Assets/logo.jpg";
 
 const Footer = () => {
   return (
     <div>
       <footer className="footer footer-center p-10 bg-primary text-primary-content">
         <div>
-          <img className="w-20" src={footer} alt="" />
+          <a href="/" className="font-bold text-xl">
+            Grand Dental
+          </a>
+          {/* <img className="w-20" src={footer} alt="" /> */}
           <p className="font-bold">
             ©2021 Kaufman Law Firm <br />
             All rights reserved

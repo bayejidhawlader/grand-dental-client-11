@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../Assets/footer.png";
+import logo from "../../../Assets/logo.jpg";
 
 const Header = () => {
   return (
@@ -45,10 +45,10 @@ const Header = () => {
             </ul>
           </div>
           <a href="/" className="btn btn-ghost normal-case text-xl">
-            <img src={logo} alt="" className="w-20" />
-            {/* <a href="/" className="border-2 normal-case text-xl">
-              Kaufman Law
-            </a> */}
+            {/* <img src={logo} alt="" className="w-20" /> */}
+            <a href="/" className="font-bold text-xl">
+              Grand Dental
+            </a>
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">
