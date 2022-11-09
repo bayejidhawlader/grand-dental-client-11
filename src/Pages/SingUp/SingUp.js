@@ -1,24 +1,36 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Login = () => {
-  const handleLogin = (event) => {
+const SingUp = () => {
+  const handleSIngUp = (event) => {
     event.preventDefault();
   };
   return (
     <div className="hero">
       <div className="hero-content flex-col">
-        <form onSubmit={handleLogin} className="card-body">
+        <form onSubmit={handleSIngUp} className="card-body">
+          <div className="form-control">
+            <label className="label">
+              <span className="label-text">Name</span>
+            </label>
+            <input
+              type="text"
+              placeholder="Name"
+              className="input input-bordered"
+            />
+          </div>
+
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>
             </label>
             <input
-              type="text"
+              type="email"
               placeholder="email"
               className="input input-bordered"
             />
           </div>
+
           <div className="form-control">
             <label className="label">
               <span className="label-text">Password</span>
@@ -28,16 +40,12 @@ const Login = () => {
               placeholder="password"
               className="input input-bordered"
             />
-            <label className="label">
-              <a href="/" className="label-text-alt link link-hover">
-                Forgot password?
-              </a>
-            </label>
           </div>
-          <Link to="/singup" className="">
+
+          <Link to="/login" className="">
             <p className=" text-center pb-4">
-              Are you new? please
-              <button className=" w-100">- Register</button>
+              Have an Account? please
+              <button className=" w-100">- Login</button>
             </p>
           </Link>
           <div className="form-control mt-6">
@@ -49,4 +57,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SingUp;
