@@ -1,19 +1,32 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 
 const SingUp = () => {
-  const handleSIngUp = (event) => {
+  const { createUser } = useContext(AuthContext);
+  const handleSingUp = (event) => {
     event.preventDefault();
+    const form = event.target;
+    const email = form.email.value;
+    const password = form.password.value;
+
+    createUser(email, password)
+      .then((result) => {
+        const user = result.user;
+        console.log(user);
+      })
+      .catch((err) => console.error(err));
   };
   return (
     <div className="hero">
       <div className="hero-content flex-col">
-        <form onSubmit={handleSIngUp} className="card-body">
+        <form onSubmit={handleSingUp} className="card-body">
           <div className="form-control">
             <label className="label">
               <span className="label-text">Name</span>
             </label>
             <input
+              name="name"
               type="text"
               placeholder="Name"
               className="input input-bordered"
@@ -25,6 +38,7 @@ const SingUp = () => {
               <span className="label-text">Email</span>
             </label>
             <input
+              name="email"
               type="email"
               placeholder="email"
               className="input input-bordered"
@@ -36,16 +50,17 @@ const SingUp = () => {
               <span className="label-text">Password</span>
             </label>
             <input
-              type="text"
+              name="password"
+              type="password"
               placeholder="password"
               className="input input-bordered"
             />
           </div>
 
           <Link to="/login" className="">
-            <p className=" text-center pb-4">
+            <p className="text-center pb-4">
               Have an Account? please
-              <button className=" w-100">- Login</button>
+              <button>- Login</button>
             </p>
           </Link>
           <div className="form-control mt-6">
