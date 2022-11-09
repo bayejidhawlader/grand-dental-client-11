@@ -13,6 +13,9 @@ const Services = () => {
       {services.map((service) => (
         <ServiceCard key={service.id} service={service}></ServiceCard>
       ))}
+      <div className="mx-auto">
+        <button className="btn btn-error">See More</button>
+      </div>
     </div>
   );
 };

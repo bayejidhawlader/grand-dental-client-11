@@ -1,58 +1,52 @@
 [
     {
-        "id": "01",
         "service_id": "01",
-        "name": "Public Defenders",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
-        "price": "20.00",
-        "s_description":"apiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eo",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "name": "Dental Extractions",
+        "img": "https://i.ibb.co/zRxwC28/tooth-extractions-e1581012005703-1200x900.jpg",
+        "price": "29.00",
+        "s_description":"In nowadays dental treatment, much better dental extraction can be done",
+        "description": "We’re sorry, but in some cases, you may have to get a tooth removed due to various issues. Whether it’s a wisdom tooth or a tooth that had trauma, it may be an unpleasant experience. However, at Grand Street Dental in Williamsburg, Brooklyn, we will do everything we can to make this treatment as painless and forgettable as possible."
         
     },
     {
-        "id": "02",
         "service_id": "02",
-        "name": "Battery Charge",
-        "img": "https://i.ibb.co/T2cpBd5/888.jpg",
+        "name": "Root Canals",
+        "img": "https://i.ibb.co/p14qGzj/front-tooth-root-canal-doug-lewis-dmd.jpg",
         "price": "20.00",
-        "s_description":"apiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "s_description":"Nowadays, teeth can be treated very easily through root canal",
+        "description": "Root canal therapy can save a tooth that has become severely infected or decayed. When diagnosis indicates the need for a root canal treatment, our first priority is our patients’ peace of mind. Offering an extensive menu of pain-management options, our first order of business is to ensure that our patients are at-ease about the procedure. Dr. Plotnick in Williamsburg makes root canal therapy as relaxing as possible.."
     },
     {
-        "id": "03",
         "service_id": "03",
-        "name": "Full car Repair",
-        "img": "https://i.ibb.co/R6Z2nFM/55.jpg",
+        "name": "Teeth Whitening",
+        "img": "https://i.ibb.co/sHm1ZmB/GSD-Services-Whitening.jpg",
         "price": "200.00",
-        "s_description":"apiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eo",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "s_description":"I can destroy any black teeth and dirty teeth very easily",
+        "description": "Yellow teeth got you down? Yeah, I get it. Perhaps you’ve worked as a barista for years to support a heavy coffee addiction or maybe you like celebrating the weekend with a couple of glasses of montepulciano at Aurora Restaurant! Or you’ve just quit smoking but get reminded everyday of it from the dark pigment left on your teeth! Let’s talk about professional ways to brighten up that smile once again! It’s under there…I promise!"
     },
     {
-        "id": "04",
         "service_id": "04",
-        "name": "Employment and Separation Agreements",
-        "img": "https://i.ibb.co/5MvmD2g/88.jpg",
+        "name": "Porcelain Crowns",
+        "img": "https://i.ibb.co/d0GCLfj/GSD-Services-Crowns.jpg",
         "price": "150.00",
-        "s_description":"Our management-side background makes us uniquely positioned to represent employees and executives",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius veniam nostrum dolores nemo quas. Minima ullam, veniam, nesciunt quae dolore animi blanditiis deserunt, ea esse dolorum ipsum quibusdam ipsa! Corrupti at, excepturi, fugiat aut nihil neque aliquid sapiente dignissimos provident, animi molestiae ipsum. Repudiandae ipsa id nihil reiciendis soluta eos ducimus pariatur, nam architecto tenetur quo quos commodi est libero repellendus vitae. Fuga numquam nulla nam, facere neque expedita voluptatibus pariatur necessitatibus vel, dignissimos ab esse magni accusamus eveniet ad corrupti, architecto nostrum. Aspernatur ex quibusdam at cum nulla!"
+        "s_description":"Perhaps you have a large cavity filling or maybe a tooth that had a root canal.",
+        "description": "Advances in the strength and appearance of porcelain crowns have made them the leading choice in restoring damaged teeth to their former splendor. A tooth that has been damaged by a root canal, grinding, decay or fracture is likely to break from the stress of daily use. But a doctor-prescribed porcelain crown strengthens your tooth by providing 360 degrees of coverage."
     },
     {
-        "id": "05",
         "service_id": "05",
-        "name": "Equal Pay",
-        "img": "https://i.ibb.co/wh7t3N3/555.jpg",
+        "name": "Dental Emergencies",
+        "img": "https://i.ibb.co/SKN5MV0/GSD-Services-Emergencys.jpg",
         "price": "30.00",
-        "s_description":"Our management-side background makes us uniquely positioned to represent employees and executives.",
-        "description": "Sexual harassment is illegal under Title VII, the New York State Human Rights Law, the New York City Human Rights Law, and other state and local laws.  Generally, unlawful sexual harassment includes unwelcome or offensive conduct based on sex, sexual orientation, gender identity or expression, pregnancy or transgender status.  Sexual harassment can include unwanted sexual advances, unwelcome touching, demeaning comments, sex stereotyping or hostile actions directed at someone because of their sex. We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies. HOW WE HELP? We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies."
+        "s_description":"Dental emergencies don’t run on a schedule, and in Williamsburg i understand that",
+        "description": "Dental trauma involving a lost tooth is a dental emergency! If your permanent tooth falls out of your mouth due to injury, I suggest to gently clean off the root, if still in tact, and try to replace it in the socket in the appropriate orientation as soon as possible. If you can replace the tooth within 30 minutes, research shows a much higher percentage of keeping your original tooth"
         
     },
     {
-        "id": "06",
         "service_id": "06",
-        "name": "Sexual Harassment",
-        "img": "https://i.ibb.co/4Wt1382/silhouette-of-woman-harassment-illustration-hands-of-man-touching-women-violence-against-women-workp.jpg",
+        "name": "Dental Exam & Cleaning",
+        "img": "https://i.ibb.co/5hRryZn/GSD-Services-Exam-Cleaning.jpg",
         "price": "20.00",
-        "s_description":"Sexual harassment continues to be one of the most pervasive problems in our workplaces.",
-        "description": "Sexual harassment is illegal under Title VII, the New York State Human Rights Law, the New York City Human Rights Law, and other state and local laws.  Generally, unlawful sexual harassment includes unwelcome or offensive conduct based on sex, sexual orientation, gender identity or expression, pregnancy or transgender status.  Sexual harassment can include unwanted sexual advances, unwelcome touching, demeaning comments, sex stereotyping or hostile actions directed at someone because of their sex. We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies. HOW WE HELP? We represent employees and executives who have been subjected to sexual harassment or suffered retaliation for opposing or reporting such conduct.   We also work with companies to remedy and prevent sexual harassment through investigations, trainings and policies."
+        "s_description":"I do dental exams and cleanings",
+        "description": "The accumulation of plaque and calculus around the teeth and under the gums can cause a cascade of dental problems like tooth decay, gingivitis, bone loss, halitosis (bad breath), and eventually, tooth loss. Routine cleanings in Williamsburg rids the mouth of harmful bacteria and ensure that you can enjoy a lifetime of exceptional oral health."
     }
 ]

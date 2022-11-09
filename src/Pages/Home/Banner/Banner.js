@@ -6,7 +6,7 @@ const Banner = () => {
       <div
         className="hero"
         style={{
-          backgroundImage: `url("https://i.postimg.cc/tT8zB142/Banner-10.jpg")`,
+          backgroundImage: `url("https://i.ibb.co/RbCQt5F/GSD-Main-Page-Slide-Show-1.jpg")`,
         }}
       >
         <div className="hero-overlay bg-opacity-60"></div>
@@ -14,8 +14,9 @@ const Banner = () => {
           <div className="max-w-md">
             {/* <h1 className="mb-5 text-5xl font-bold">Hello there</h1> */}
             <p className="mb-5 text-xl text-white">
-              Advocate for employee rights and help people comply with workplace
-              laws.
+              I treat every one of my patients' teeth very well so that they do
+              not suffer from the same problem again and they can be healthy
+              afterwards
             </p>
             <button className="btn btn-primary">Learn More</button>
           </div>
