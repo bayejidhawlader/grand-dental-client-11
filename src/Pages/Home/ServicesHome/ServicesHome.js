@@ -1,9 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ServiceCard from "../Services/ServiceCard";
-import { PhotoProvider, PhotoView } from "react-photo-view";
 
-const ServicesHome = () => {
+const ServicesHome = ({ service }) => {
   const [services, setServices] = useState([]);
   useEffect(() => {
     fetch("https://lawyer-website-server.vercel.app/services")
@@ -28,11 +27,6 @@ const ServicesHome = () => {
         </div>
         <h1></h1>
       </div>
-      <PhotoProvider>
-        <PhotoView src="/1.jpg">
-          <img src="/1-thumbnail.jpg" alt="" />
-        </PhotoView>
-      </PhotoProvider>
     </div>
   );
 };
