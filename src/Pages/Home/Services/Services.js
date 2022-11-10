@@ -8,6 +8,8 @@ const Services = () => {
       .then((res) => res.json())
       .then((data) => setServices(data));
   }, []);
+
+  // const cursor = courseCollcetion.find(query).limit(3);
   return (
     <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-20">
       {services.map((service) => (
@@ -17,10 +19,6 @@ const Services = () => {
       <div>
         <button className=""></button>
       </div>
-      <div className="mb-4">
-        <button className="btn btn-error">See More</button>
-      </div>
-      <h1></h1>
     </div>
   );
 };

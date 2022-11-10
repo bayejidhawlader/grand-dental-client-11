@@ -11,7 +11,7 @@ const Footer = () => {
           </a>
           {/* <img className="w-20" src={footer} alt="" /> */}
           <p className="font-bold">
-            ©2021 Kaufman Law Firm <br />
+            ©2021 2018 GRAND DENTAL ALL RIGHT RESERVED <br />
             All rights reserved
           </p>
           <p className="text-white">

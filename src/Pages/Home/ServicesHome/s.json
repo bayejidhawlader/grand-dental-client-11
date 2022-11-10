@@ -1,0 +1,27 @@
+[
+    {
+        "service_id": "01",
+        "name": "Dental Extractions",
+        "img": "https://i.ibb.co/zRxwC28/tooth-extractions-e1581012005703-1200x900.jpg",
+        "price": "29.00",
+        "s_description":"In nowadays dental treatment, much better dental extraction can be done",
+        "description": "We’re sorry, but in some cases, you may have to get a tooth removed due to various issues. Whether it’s a wisdom tooth or a tooth that had trauma, it may be an unpleasant experience. However, at Grand Street Dental in Williamsburg, Brooklyn, we will do everything we can to make this treatment as painless and forgettable as possible."
+        
+    },
+    {
+        "service_id": "02",
+        "name": "Root Canals",
+        "img": "https://i.ibb.co/p14qGzj/front-tooth-root-canal-doug-lewis-dmd.jpg",
+        "price": "20.00",
+        "s_description":"Nowadays, teeth can be treated very easily through root canal",
+        "description": "Root canal therapy can save a tooth that has become severely infected or decayed. When diagnosis indicates the need for a root canal treatment, our first priority is our patients’ peace of mind. Offering an extensive menu of pain-management options, our first order of business is to ensure that our patients are at-ease about the procedure. Dr. Plotnick in Williamsburg makes root canal therapy as relaxing as possible.."
+    },
+    {
+        "service_id": "03",
+        "name": "Teeth Whitening",
+        "img": "https://i.ibb.co/sHm1ZmB/GSD-Services-Whitening.jpg",
+        "price": "200.00",
+        "s_description":"I can destroy any black teeth and dirty teeth very easily",
+        "description": "Yellow teeth got you down? Yeah, I get it. Perhaps you’ve worked as a barista for years to support a heavy coffee addiction or maybe you like celebrating the weekend with a couple of glasses of montepulciano at Aurora Restaurant! Or you’ve just quit smoking but get reminded everyday of it from the dark pigment left on your teeth! Let’s talk about professional ways to brighten up that smile once again! It’s under there…I promise!"
+    }
+]

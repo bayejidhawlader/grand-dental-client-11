@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import { FaUser } from "react-icons/fa";
+import { Link } from "react-router-dom";
 import { AuthContext } from "../../../context/AuthProvider/AuthProvider";
 
 const Header = () => {
@@ -90,9 +91,13 @@ const Header = () => {
           </div>
 
           <div>
-            <button className="btn btn-primary" onClick={handleSingOut}>
-              Log Out
-            </button>
+            {user?.email ? (
+              <button className="btn btn-primary" onClick={handleSingOut}>
+                Log Out
+              </button>
+            ) : (
+              <Link to="/login"></Link>
+            )}
           </div>
         </div>
       </div>
