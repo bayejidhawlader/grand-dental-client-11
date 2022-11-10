@@ -1,9 +1,13 @@
 import React from "react";
 import { useLoaderData } from "react-router-dom";
+import useDynamicTitle from "../../hooks/useDynamicTitle";
 
 const SingleService = () => {
   const { name, img, price, description } = useLoaderData();
   console.log(name);
+
+  // Use Title
+  useDynamicTitle("Service Details");
   return (
     <div>
       <div className="card  shadow-xl">

@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
+import useDynamicTitle from "../../hooks/useDynamicTitle";
 
 const Login = () => {
   const { loginExitingUser, loginWithGoogle } = useContext(AuthContext);
@@ -32,10 +33,13 @@ const Login = () => {
       .catch((error) => console.log(error));
   };
 
+  // Use Title
+  useDynamicTitle("Login");
   return (
     <div className="hero">
       <div className="hero-content">
         <form onSubmit={handleLogin} className="card-body">
+          <h1 className="text-3xl text-white">Login</h1>
           <div className="form-control">
             <label className="label">
               <span className="label-text">Email</span>

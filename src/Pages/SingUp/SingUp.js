@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
+import useDynamicTitle from "../../hooks/useDynamicTitle";
 
 const SingUp = () => {
   const { createUser } = useContext(AuthContext);
@@ -17,10 +18,14 @@ const SingUp = () => {
       })
       .catch((err) => console.error(err));
   };
+
+  // Use Title
+  useDynamicTitle("Register");
   return (
     <div className="hero">
       <div className="hero-content flex-col">
         <form onSubmit={handleSingUp} className="card-body">
+          <h1 className="text-3xl text-white">Register</h1>
           <div className="form-control">
             <label className="label">
               <span className="label-text">Name</span>
