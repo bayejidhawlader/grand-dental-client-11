@@ -1,5 +1,4 @@
 import React, { useContext } from "react";
-import { FaUser } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../../context/AuthProvider/AuthProvider";
 
@@ -54,7 +53,6 @@ const Header = () => {
             </ul>
           </div>
           <a href="/" className="btn btn-ghost normal-case text-xl">
-            {/* <img src={logo} alt="" className="w-20" /> */}
             <a href="/" className="font-bold text-xl">
               Grand Dental
             </a>

@@ -17,7 +17,7 @@ const HappyCustomer = () => {
               My daughter is not afraid of the dentist anymore and her teeth are
               healthy and look absolutely beautiful!
             </p>
-            <p>Syndra White</p>
+            <p>-Syndra White</p>
           </div>
         </div>
       </div>

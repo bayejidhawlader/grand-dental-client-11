@@ -9,6 +9,7 @@ const ServiceCard = ({ service }) => {
     <div className="m-6">
       <div className="card">
         <figure>
+          {/* React Photo View */}
           <PhotoProvider className="cursor-pointer">
             <PhotoView src={img}>
               <img src={img} alt="" />

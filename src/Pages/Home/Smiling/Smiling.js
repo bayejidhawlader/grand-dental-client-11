@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+// A Wonderful expirience (This Section Showung ON homepage)
 const Smiling = () => {
   return (
     <div>

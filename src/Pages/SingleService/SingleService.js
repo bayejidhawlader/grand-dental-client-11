@@ -21,7 +21,6 @@ const SingleService = () => {
             <div className="badge badge-outline text-white font-semibold p-6">
               ${price}
             </div>
-            {/* <button className="btn btn-primary">Buy Now</button> */}
           </div>
         </div>
       </div>

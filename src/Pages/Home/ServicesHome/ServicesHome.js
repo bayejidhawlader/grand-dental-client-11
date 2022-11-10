@@ -12,7 +12,7 @@ const ServicesHome = ({ service }) => {
 
   return (
     <div>
-      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-20">
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-10">
         {services.slice(0, 3).map((service) => (
           <ServiceCard key={service.id} service={service}></ServiceCard>
         ))}
@@ -25,7 +25,6 @@ const ServicesHome = ({ service }) => {
             <button className="btn btn-error">See More</button>
           </Link>
         </div>
-        <h1></h1>
       </div>
     </div>
   );

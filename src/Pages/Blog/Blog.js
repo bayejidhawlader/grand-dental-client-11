@@ -36,7 +36,7 @@ const Blog = () => {
             with optional signature and/or optional encryption whose payload
             holds JSON that asserts some number of claims. The tokens are signed
             either using a private secret or a public/private key.{" "}
-            <span className="text-orange-600">how does work JWT?</span>{" "}
+            <span className="text-orange-600">How does work JWT?</span>{" "}
             <p>
               JSON Web Tokens are an open, standard way for you to represent
               your user's identity securely during a two-party interaction.
