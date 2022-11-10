@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useDynamicTitle from "../../../hooks/useDynamicTitle";
+import Spinner from "../Spinner/Spinner";
 import ServiceCard from "./ServiceCard";
 
 const Services = () => {
@@ -10,18 +11,16 @@ const Services = () => {
       .then((data) => setServices(data));
   }, []);
 
-  // const cursor = courseCollcetion.find(query).limit(3);
-
   // Use Title
   useDynamicTitle("Services");
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10 pt-20">
-      {services.map((service) => (
-        <ServiceCard key={service.id} service={service}></ServiceCard>
-      ))}
-
-      <div>
-        <button className=""></button>
+    <div>
+      {/* Spinner */}
+      <Spinner></Spinner>
+      <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-10">
+        {services.map((service) => (
+          <ServiceCard key={service.id} service={service}></ServiceCard>
+        ))}
       </div>
     </div>
   );

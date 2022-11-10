@@ -14,4 +14,8 @@
 
 ## When clicking the view details button, the user will be taken to the service details
 
+## I added a spinner
+
+## I have set different titles for each page
+
 

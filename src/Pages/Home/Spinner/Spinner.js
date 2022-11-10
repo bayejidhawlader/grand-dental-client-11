@@ -1,29 +1,23 @@
 import React, { useEffect, useState } from "react";
-import axios from "axios";
-import Services from "../Services/Services";
+import ClipLoader from "react-spinners/ClipLoader";
 
+// Make a Spiier To Here
 const Spinner = () => {
-  const [loader, setLoader] = useState([]);
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    axios
-      .get(`https://lawyer-website-server.vercel.app/services`)
-      .then((res) => {
-        setLoader(res.data);
-        setLoading(true);
-      });
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 100);
   }, []);
-  console.log(loader);
-  console.log(loading);
-
   return (
     <div>
-      {loading
-        ? loader.map((loader) => {
-            return <sss key={loader.id} loader={loader}></sss>;
-          })
-        : loading}
+      {loading ? (
+        <ClipLoader color={"#D0021B"} loading={loading} size={50} />
+      ) : (
+        <p></p>
+      )}
     </div>
   );
 };

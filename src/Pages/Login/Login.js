@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../context/AuthProvider/AuthProvider";
 import { GoogleAuthProvider } from "firebase/auth";
 import useDynamicTitle from "../../hooks/useDynamicTitle";
+import Spinner from "../Home/Spinner/Spinner";
 
 const Login = () => {
   const { loginExitingUser, loginWithGoogle } = useContext(AuthContext);
@@ -38,7 +39,9 @@ const Login = () => {
   return (
     <div className="hero">
       <div className="hero-content">
-        <form onSubmit={handleLogin} className="card-body">
+        <form onSubmit={handleLogin} className="card-body p-0">
+          {/* Spinner */}
+          <Spinner></Spinner>
           <h1 className="text-3xl text-white">Login</h1>
           <div className="form-control">
             <label className="label">
